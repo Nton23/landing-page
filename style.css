@@ -3,3 +3,14 @@
     margin: 0;
     padding: 0;
 }
+.page-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 30vh 25vh 25vh 20vh;
+    grid-template-areas:
+    "header"
+    "article-top"
+    "article-bottom"
+    "footer";
+}
