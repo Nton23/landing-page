@@ -27,12 +27,12 @@
     background-color: #1f2937;
 }
 .header-description h1 {
-    font-size: 48px;
+    font-size: 3em;
     font-weight: bolder;
     color: #f9faf8;
 }
 .header-description p, .header-nav {
-    font-size: 18px;
+    font-size: 1.2em;
     color: #e5e7eb;
 }
 .nav-logo{
@@ -40,7 +40,21 @@
     color: #f9faf8;
 }
 .left-side {
-    grid-area: left-side;
+    width: 80%;
+    height: 13rem;
+    border: solid blue;
+    
+}
+
+.signup-btn {
+    background: #3882f6;
+    padding: 10px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f9faf8;
 }
 .right-side {
     grid-area: right-side;
