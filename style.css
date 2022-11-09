@@ -131,25 +131,31 @@
     text-align: start;
     margin-top: 5px;
     width: 120px;
-    border: solid green;
 }
 .bottom {
     background-color: #e5e7eb;
     height: 20vh;
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.main-div-bottom {
-    border: solid red;
+.main-div-p {
     width: 30rem;
- 
 }
-.main-div-bottom p {
+.main-div-p p {
     text-align: start;
     font-size: 1.4em;
     font-weight: light;
     font-style: italic;
     color: #1f2937;
 }
+.main-bottom-container {
+    position: relative;
+    top: 60px;
+    right: 150px;
+}
+
 /*------footer-style----*/
 .footer-information {
     grid-area: footer;
