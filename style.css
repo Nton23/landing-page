@@ -155,9 +155,40 @@
     top: 60px;
     right: 150px;
 }
-
+.main-div-auth p {
+    font-weight: bold;
+}
 /*------footer-style----*/
 .footer-information {
     grid-area: footer;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-div {
+    background: #3882f6;
+    color: #f9faf8;
+    border: solid purple;
+    width: 800px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.ul-footer {
+    border: solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-btn {
+    border:solid #e5e7eb;
+    height: 30px;
+    width: 70px;
+    display:flex;
+    align-items: center;
+}
+.ul-footer li {
+    border: solid green;
+    list-style: none;
 }
